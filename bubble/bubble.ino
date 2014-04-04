@@ -18,20 +18,21 @@ CHANGELOG:
 PIN DEFINITIONS
 */
 // FOR ARDUINO MEGA 2560
-int lightSensor = A0;
-int reedSensor = 30;
-int indicatorLED = 32;
-int pwm_out = 8;
-int in_pin1 = 36;
-int in_pin2 = 37;
+//int lightSensor = A0;
+//int reedSensor = 30;
+//int indicatorLED = 32;
+//int pwm_out = 8;
+//int in_pin1 = 36;
+//int in_pin2 = 37;
 
 // FOR ATMEGA48
-//int lightSensor = PINC0;
-//int indicatorLED = PINB5;
-//int pwm_out = PINB1;
-//int in_pin1 = PIND6;
-//int in_pin2 = PIND7;
-//int reedSensor = PINB7;
+int lightSensor = 8;
+int indicatorLED = 5;
+int pwm_out = 3
+;
+int in_pin1 = 17;
+int in_pin2 = 18;
+int reedSensor = 7;
 
 
 
