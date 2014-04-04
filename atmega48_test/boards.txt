@@ -1,0 +1,17 @@
+atmega48.name=Arduino Atmega48
+
+atmega48.upload.protocol=stk500
+atmega48.upload.maximum_size=4096
+atmega48.upload.speed=19200
+
+atmega48.bootloader.low_fuses=0xE2
+atmega48.bootloader.high_fuses=0xdd
+atmega48.bootloader.extended_fuses=0x00
+atmega48.bootloader.path=atmega
+atmega48.bootloader.file=ATmegaBOOT_168_diecimila.hex
+atmega48.bootloader.unlock_bits=0x3F
+atmega48.bootloader.lock_bits=0x0F
+
+atmega48.build.mcu=atmega48
+atmega48.build.f_cpu=16000000L
+atmega48.build.core=arduino
